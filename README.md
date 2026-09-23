@@ -39,7 +39,7 @@ The result answers which architecture—**AlexNet, VGG, or ResNet**—works "bes
 | Deep Learning | PyTorch + TorchVision (pretrained `resnet18`, `alexnet`, `vgg16`) |
 | Image Processing | Pillow (PIL) |
 | Numerical | NumPy |
-| CLI | `argparse` (standard library) |
+| CLI | `argparse` (standard library) |<>
 | Scheduling | POSIX shell scripts (`run_models_batch*.sh`) |
 
 No web framework, API server, database, container, or cloud configuration is present in the repository, and there is no `requirements.txt` (see [Installation](#installation)).
@@ -310,6 +310,6 @@ python check_images.py --dir pet_images/ --arch vgg --dogfile dognames.txt
 
 - **Code** in this repository is MIT licensed - see `LICENSE`.
 
-## Author
+<!-- ## Author
 
-Charles Akinnurun <!--(attribution in source-file headers; author of this repository per the GitHub remote).-->
+Charles Akinnurun (attribution in source-file headers; author of this repository per the GitHub remote).-->
